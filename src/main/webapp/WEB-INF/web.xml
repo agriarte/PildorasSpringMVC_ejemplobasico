@@ -35,7 +35,7 @@
     </servlet-mapping>
 
     <!-- Página de inicio por defecto -->
-    <!-- para que funcione tuve que poner en  el Controlador un @RequestMapping("/")  
+    <!-- para que funcione tuve que poner en  el Controlador un @RequestMapping("")  
        Es necesario el wellcome-file y el @Request --> 
     <welcome-file-list>
         <welcome-file>inicio.jsp</welcome-file>

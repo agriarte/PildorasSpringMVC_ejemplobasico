@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class Controlador {
     
-    @RequestMapping("/")
+    @RequestMapping("")
     public String mostrarIniciovacio() {
         return "inicio";
     }
